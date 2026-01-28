@@ -36,7 +36,7 @@
 void main() {
   var angkaGlobal = 10;
 
-  void fungsiOuted() {
+  void fungsiOuter() {
     var angkaLuar = 20;
     print("Angka yang dihasilkan fungsi outed = $angkaLuar, $angkaGlobal");
 
@@ -46,5 +46,11 @@ void main() {
         "Angka yang dihasilkan di fungsi inner = $angkaDalam, $angkaLuar, $angkaGlobal",
       );
     }
+
+    fungInner();
+    print("Yang bisa di cetak dimari : $angkaLuar, $angkaGlobal");
   }
+
+  fungsiOuter();
+  print("$angkaGlobal");
 }
