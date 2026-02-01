@@ -31,12 +31,14 @@
 // }
 
 // Contoh 2
-// jdi var angkadala dia masuk di dalam fungsi inner
-//
+// jdi var angkadalam dia masuk di dalam fungsi inner
+//jdi var angka global bis di pakai dimana saja
+// lalu dibwhnya untuk fungsi fungsi yang lainnya
 void main() {
   var angkaGlobal = 10;
 
   void fungsiOuter() {
+    // var angka luar bisa disebut dengan local scope kalo mau di akses, dan karena dia tidak bisa di akses di luar
     var angkaLuar = 20;
     print("Angka yang dihasilkan fungsi outed = $angkaLuar, $angkaGlobal");
 
