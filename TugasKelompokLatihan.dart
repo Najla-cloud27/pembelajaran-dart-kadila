@@ -1,4 +1,5 @@
-// class(field nya cuman ada dua nama sama energi), object, property, method(ada 6 method) (tinggal nama kondisi)
+// class(field nya cuman ada dua nama sama energi),
+//object, property, method(ada 6 method) (tinggal nama kondisi)
 
 class Murid {
   String nama = "Jaymi";
